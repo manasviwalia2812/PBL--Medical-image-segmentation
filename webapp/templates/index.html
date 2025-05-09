@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brain Tumor Segmentation Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Brain Tumor Segmentation Demo</h1>
+        <section class="description">
+            <h2>Model Description</h2>
+            <p>{{ description }}</p>
+            <h3>Training Loss</h3>
+            <p>{{ loss }}</p>
+            <h3>Accuracy</h3>
+            <p>{{ accuracy }}</p>
+        </section>
+
+        <section class="image-selection">
+            <form method="post" action="/">
+                <label for="slice_index">Select Slice Index (0 to {{ total_slices - 1 }}):</label>
+                <input type="number" id="slice_index" name="slice_index" min="0" max="{{ total_slices - 1 }}" value="{{ selected_index }}" />
+                <button type="submit">Show</button>
+            </form>
+        </section>
+
+        <section class="images-display">
+            <div class="image-block">
+                <h3>Input Image (Channel 0)</h3>
+                <img src="data:image/png;base64,{{ image }}" alt="Input Image" />
+            </div>
+            <div class="image-block">
+                <h3>Ground Truth Mask (Binarized)</h3>
+                <img src="data:image/png;base64,{{ mask }}" alt="Ground Truth Mask" />
+            </div>
+            <div class="image-block">
+                <h3>Predicted Mask (Thresholded)</h3>
+                <img src="data:image/png;base64,{{ prediction }}" alt="Predicted Mask" />
+            </div>
+        </section>
+    </div>
+</body>
+</html>
