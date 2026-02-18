@@ -1,6 +1,7 @@
 # Medical Image Segmentation - Brain Tumor Segmentation Using 2D UNet
 Colab Code link- https://drive.google.com/drive/folders/1n4ZgcsD-V6ZIjcdS0WQtXKG2ocmxq7Rt?usp=drive_link
 Demo Vid Streamlit Link- https://drive.google.com/file/d/1boSZCLsXuYVZhWxafXd-ouKtVYLfhrmB/view?usp=drive_link
+Presentation link- https://docs.google.com/presentation/d/1td_aMhVHhoQlM3EeFJ6NasTR2-Y6lbK5/edit?usp=sharing&ouid=112896692540103231027&rtpof=true&sd=true
 
 ## Project Description
 This project implements a 2D UNet model for brain tumor segmentation on MRI slices. Brain tumor segmentation is a critical task in medical image analysis, aiding diagnosis, treatment planning, and monitoring. Manual segmentation is time-consuming and prone to variability, motivating automated methods. Deep learning, particularly convolutional neural networks (CNNs), has revolutionized medical image segmentation.
@@ -83,6 +84,7 @@ The slicing approach simplifies 3D data handling but may lose inter-slice contex
 ## References
 - Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. MICCAI.
 - BraTS Dataset: https://www.med.upenn.edu/cbica/brats2020/data.html
+
 
 
 
