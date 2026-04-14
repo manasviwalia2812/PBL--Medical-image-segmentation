@@ -1,6 +1,6 @@
 # Medical Image Segmentation - Brain Tumor Segmentation Using 2D UNet
 Colab Code link- https://drive.google.com/drive/folders/1n4ZgcsD-V6ZIjcdS0WQtXKG2ocmxq7Rt?usp=drive_link
-Demo Vid Streamlit Link- https://drive.google.com/file/d/1boSZCLsXuYVZhWxafXd-ouKtVYLfhrmB/view?usp=drive_link
+report research paper: [Demo Vid Streamlit Link- https://drive.google.com/file/d/1boSZCLsXuYVZhWxafXd-ouKtVYLfhrmB/view?usp=drive_link](https://drive.google.com/drive/folders/1z9ulmThNSG881swJOSB3-8MjevbM532B?usp=sharing)
 Presentation link- https://docs.google.com/presentation/d/1td_aMhVHhoQlM3EeFJ6NasTR2-Y6lbK5/edit?usp=sharing&ouid=112896692540103231027&rtpof=true&sd=true
 
 ## Project Description
